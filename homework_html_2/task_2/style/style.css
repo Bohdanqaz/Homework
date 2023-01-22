@@ -1,0 +1,37 @@
+.head_box{
+    display: flex;
+    justify-content: center;
+}
+.father{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+h3{
+    font-weight: normal;
+}
+.cart{
+    display: flex;
+    border: 1px solid #999999 ;
+    width: 270px;
+    justify-content: center;
+    padding: 40px 0 50px;
+}
+.inner-cart{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    gap: 15px;
+}
+.inner-cart p{
+    color: #7D8E80;
+    line-height: 1.8rem;
+}
+span a{
+    display: inline-block;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+}

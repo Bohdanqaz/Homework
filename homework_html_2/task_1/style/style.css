@@ -1,0 +1,28 @@
+h2, h3{
+    color: #e6e6e6;
+}
+.fatrher{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.widgets, .child_box, .contacts{
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2269BB;
+    flex-wrap: wrap;
+}
+.three_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: max-content;
+    justify-content: space-between;
+    gap: 10px;
+}
+.child_box{
+    width: 300px;
+    height: 400px;
+    background-color: #164579;
+}
