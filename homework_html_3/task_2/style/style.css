@@ -1,0 +1,19 @@
+.bg__header{
+    background-color: #102A3E;
+    height: 500px;
+}
+.bg__header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 30px;
+}
+.box{
+    position: relative;
+    bottom: -100px;
+    width: 200px;
+    height: 200px;
+    background-color: #6964E2;
+    border: 3px solid #060098;
+    border-radius: 20px;
+}

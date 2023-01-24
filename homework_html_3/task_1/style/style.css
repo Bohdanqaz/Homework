@@ -1,13 +1,20 @@
+*, html, body{
+    box-sizing: border-box;
+}
 .head_box{
     display: flex;
     justify-content: center;
+    align-content: center;
     height: 100vh;
 }
 .father{
     display: flex;
+    justify-content: center;
     gap: 25px;
+    row-gap: 70px;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 70px;
 }
 
 h3{
@@ -15,11 +22,12 @@ h3{
 }
 .cart{
     display: flex;
+    position: relative;
     border: 1px solid #999999 ;
     width: 270px;
     justify-content: center;
     padding: 40px 0 50px;
-    max-height: 300px;
+    max-height: 400px;
 }
 .inner-cart{
     display: flex;
@@ -38,4 +46,21 @@ span a{
     text-decoration: none;
     color: #000;
     border: 1px solid #000;
+}
+.inner-cart i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    color: #fada00;
+    border: 1px solid #999;
+    background-color: #fff;
+    border-radius: 100%;
+    font-size: 50px;
+    top: -15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
