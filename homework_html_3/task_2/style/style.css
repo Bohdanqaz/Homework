@@ -1,12 +1,13 @@
-.bg__header{
-    background-color: #102A3E;
-    height: 500px;
+*, body,html{
+    margin: 0;
 }
-.bg__header{
+.bg__home{
     display: flex;
     justify-content: center;
     align-items: flex-end;
     column-gap: 30px;
+    background-color: #102A3E;
+    height: 400px;;
 }
 .box{
     position: relative;
@@ -17,3 +18,24 @@
     border: 3px solid #060098;
     border-radius: 20px;
 }
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #CBD5DD;
+    height: 60px;
+}
+.inner__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+.header__logo {
+    background-color: #6964E2;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+.header__icon i:nth-child(1) {
+    margin-right: 10px;
