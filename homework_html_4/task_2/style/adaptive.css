@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px){
+    .box_a{
+        min-height: 100px;
+        margin-bottom: 10px;
+    }
+    .box_b{
+        min-width: 100%;
+    }
+    .box_f{
+        min-height: 100px;
+    }
+    .container_inner{
+        display: block;
+    }
+    .content_three{
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .content_three > .box{
+        min-height: 70px;
+        max-width: 70px;
+    }
+}
