@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px){
+    .container_inner{
+        flex-direction: column;
+    }
+    .box_a{
+        min-height: 120px;
+    }
+    .box_b {
+        height: 50vh;
+    }
+    .box_c{
+       height: 120px;
+    }
+}
